@@ -1,0 +1,92 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #1F1426;}
+
+main{
+    background-color: #829FD9;
+    width: 90vw;
+    height: 40vw;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+} 
+   
+
+span#form{
+
+    height: 36vw;
+    margin-top:20px;
+
+}
+section#login{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    border-radius: 10px;
+    margin: 0;
+    width: 50vw;
+    height: 40vw;
+    background-size: cover;
+
+}
+article{
+    position: relative;
+    height: 150px;
+    top: 20%;
+    
+}
+label{
+    width: 40px
+}
+
+label > span{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.733);
+    height: 25px;
+    box-shadow: 1px 1px 1px;
+    
+    
+}
+input#usuario{
+    margin-top: 0;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
+    width: 200px;
+    height: 35px;
+
+}
+input#senha{  
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
+    width: 200px;
+    height: 35px;
+}
+
+input#confirm{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
+    width: 100px
+}
+input#confirm:hover{
+    background-color:rgb(199, 204, 209);
+}
+
+
+
+
