@@ -6,13 +6,21 @@
 }
 
 body{
-    background-color: #1F1426;}
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    margin-top: 400px;
+    background-size: cover;
+    background-image: url("../imagens/1171630452.jpeg");
+    overflow: hidden
+    /*background-color: #1F1426;*/
+}
 
 main{
-    background-color: #829FD9;
+    background-color: #829fd95d;
     width: 90vw;
     height: 40vw;
-    margin: auto;
+
     padding: 0px;
     border-radius: 10px;
     position: absolute;
@@ -20,7 +28,7 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     border: 1px solid black;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+    box-shadow: 4px 4px 4px rgb(89, 35, 22);
 } 
    
 
@@ -29,6 +37,12 @@ span#form{
     height: 36vw;
     margin-top:20px;
 
+}
+span >h1{
+    font-family: vin;
+    color: #F2A35E;
+    margin-bottom: -20px;
+  
 }
 section#login{
     text-align: center;
