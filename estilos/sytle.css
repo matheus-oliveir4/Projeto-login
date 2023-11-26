@@ -20,8 +20,8 @@ body{
 @media screen{
     main{
         background-color: #829fd95d;
-        width: 90vw;
-        height: 40vw;
+        width: 95vw;
+        height: 45vw;
         padding: 0px;
         border-radius: 10px;
         position: absolute;
@@ -39,8 +39,9 @@ body{
     }
     span >h1{
         font-family: vin;
+        font-size: 20px;
         color: #050505;
-        margin-bottom: -20px;
+        margin-bottom: -30px;
         text-shadow: 1px 1px 1px;
       
     }
@@ -53,7 +54,7 @@ body{
         border-radius: 10px;
         margin: 0;
         width: 50vw;
-        height: 40vw;
+        height: 45vw;
         background-size: cover;
     
     }
@@ -79,19 +80,19 @@ body{
         margin-top: 0;
         border-radius: 5px;
         box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
-        width: 200px;
+        width: 145px;
         height: 35px;
     
     }
     input#senha{  
         border-radius: 5px;
         box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
-        width: 200px;
+        width: 145px;
         height: 35px;
     }
     
     input#confirm{
-        margin-top: 20px;
+        margin-top: 10px;
         position: relative;
         border-radius: 5px;
         box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
