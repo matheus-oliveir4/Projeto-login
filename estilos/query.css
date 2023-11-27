@@ -1,14 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (min-width:915px ) and (max-width: 1280px ) {
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: 'Times New Roman', Times, serif;
-    }
+@media screen and (min-width:915px ) and (max-width: 1365px ) {
     main{
         background-color: #829fd95d;
-        width: 60vw;
+        width: 57vw;
         height: 30vw;
         padding: 0px;
         border-radius: 10px;
@@ -87,5 +82,92 @@
     }
     input#confirm:hover{
         background-color:rgb(199, 204, 209);
+    }}
+
+@media screen and (min-width: 1366px){
+    main{
+        background-color: #829fd95d;
+        width: 57vw;
+        height: 25vw;
+        padding: 0px;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: 1px solid black;
+        box-shadow: 4px 4px 4px rgb(89, 35, 22);
+    } 
+    span#form{
+    
+        height: 36vw;
+        margin-top:20px;
+    
     }
+    span >h1{
+        font-family: vin;
+        color: #0e0d0d;
+        margin-bottom: -50px;
+        text-shadow: 1px 1px 1px;
+        margin-top: 20px;
+      
+    }
+    section#login{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    img{
+        border-radius: 10px;
+        margin: 0;
+        width: 35vw;
+        height: 25vw;
+        background-size: cover;
+    
+    }
+    article{
+        position: relative;
+        height: 150px;
+        top: 20%;
+        
+    }
+    label{
+        width: 40px
+    }
+    
+    label > span{
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.733);
+        height: 25px;
+        box-shadow: 1px 1px 1px;
+        
+        
+    }
+    input#usuario{
+        margin-top: 0;
+        border-radius: 5px;
+        box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
+        width: 200px;
+        height: 35px;
+    
+    }
+    input#senha{  
+        border-radius: 5px;
+        box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
+        width: 200px;
+        height: 35px;
+    }
+    
+    input#confirm{
+        margin-top: 20px;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
+        width: 100px
+    }
+    input#confirm:hover{
+        background-color:rgb(199, 204, 209);
+    }
+
+    
 }
