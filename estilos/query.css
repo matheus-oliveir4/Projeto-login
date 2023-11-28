@@ -60,14 +60,14 @@
     }
     input#usuario{
         margin-top: 0;
-        border-radius: 5px;
+        border-radius: 15px;
         box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
         width: 150px;
         height: 35px;
     
     }
     input#senha{  
-        border-radius: 5px;
+        border-radius: 15px;
         box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
         width: 150px;
         height: 35px;
@@ -76,7 +76,7 @@
     input#confirm{
         margin-top: 20px;
         position: relative;
-        border-radius: 5px;
+        border-radius: 10px;
         box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
         width: 100px
     }
@@ -140,7 +140,7 @@
     }
     
     label > span{
-        border-radius: 5px;
+        border-radius: 15px;
         background-color: rgba(255, 255, 255, 0.733);
         height: 25px;
         box-shadow: 1px 1px 1px;
@@ -149,7 +149,7 @@
     }
     input#usuario{
         margin-top: 0;
-        border-radius: 5px;
+        border-radius: 15px;
         box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.603);
         width: 200px;
         height: 35px;

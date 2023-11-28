@@ -22,10 +22,10 @@
                 <article>
                     <form action="login.js" method="post">
                         <p><label for="usuario"> <span class="material-icons md-36"> account_box </span> </label>
-                        <input type="email" id="usuario" required  maxlength="40" placeholder=" Email ou CPF"><p>
+                        <input type="email" id="usuario" required  maxlength="40" placeholder=" Email ou CPF" autocomplete="email"><p>
                         <br> 
                         <label for="senha"> <span class="material-icons md-36"> password </span> </label>
-                        <input type="password" id="senha" required maxlength="8" placeholder=" 6 a 8 digitos">
+                        <input type="password" id="senha" required minlength="6" maxlength="8" placeholder=" 6 a 8 digitos" autocomplete="current-password">
                         <br>
                         <input type="button" value="Entrar" id="confirm">
                         
